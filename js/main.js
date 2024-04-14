@@ -245,7 +245,7 @@ function displayThings(){
             <img src="${cart[i].images[0]}" alt="">
         </div>
         <div class="right-buy">
-            <h5>Beats Solo3 Wireless</h5>
+            <h5>${cart[i].title}</h5>
             <span class="realPrice">
                 ${cart[i].price}
             </span>
