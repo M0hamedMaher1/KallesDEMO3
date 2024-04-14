@@ -177,7 +177,7 @@ function openInfo(index){
     let price2 = list[index].price;
     let discount = list[index].disc;
     leftImage.src = img;
-    title.textContent = name1;
+    title.innerHTML = name1;
     price.innerHTML = price2;
     disc.innerHTML = discount;
 };
