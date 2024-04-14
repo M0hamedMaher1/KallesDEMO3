@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS File -->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="container">
+                <div class="nav-row">
+                    <div class="bars2">
+                        <i class="fa-solid fa-bars-staggered"></i>
+                    </div>
+                    <div class="left-side">
+                        <ul class="mainUl">
+                            <li><a href="#demo">demo</a></li>
+                            <li><a href="#">shop</a></li>
+                            <li><a href="#product">product</a></li>
+                            <li><a href="#">sale</a></li>
+                            <li><a href="#">pages</a></li>
+                            <li><a href="#lookbook">lookbooks</a></li>
+                            <li><a href="#blog">blog</a></li>
+                        </ul>
+                        <div class="logo">
+                            <h1>
+                                <a href="./index.html">
+                                    <img src="./imgs/kalles_c6c02253-b1fc-4536-91a6-a3c9110c5550.webp" alt="">
+                                </a>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="right-icons">
+                        <i class="fa-solid fa-magnifying-glass searchs"></i>
+                        <i class="fa-regular fa-user none"></i>
+                        <i class="fa-regular fa-heart clicks none"><span id="hearts">0</span></i>
+                        <i class="fa-solid fa-cart-shopping clicks"><span class="spanCount">0</span></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="last">
+            <div class="container">
+                <div class="nav-row">
+                    <div class="bars2">
+                        <i class="fa-solid fa-bars-staggered"></i>
+                    </div>
+                    <div class="left-side">
+                        <ul class="mainUl">
+                            <li><a href="#demo">demo</a></li>
+                            <li><a href="#">shop</a></li>
+                            <li><a href="#product">product</a></li>
+                            <li><a href="#">sale</a></li>
+                            <li><a href="#">pages</a></li>
+                            <li><a href="#lookbook">lookbooks</a></li>
+                            <li><a href="#blog">blog</a></li>
+                        </ul>
+                        <div class="logo">
+                            <h1>
+                                <a href="./index.html">
+                                    <img src="./imgs/kalles_c6c02253-b1fc-4536-91a6-a3c9110c5550.webp" alt="">
+                                </a>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="right-icons">
+                        <i class="fa-solid fa-magnifying-glass searchs"></i>
+                        <i class="fa-regular fa-user none"></i>
+                        <i class="fa-regular fa-heart clicks none"><span id="hearts">0</span></i>
+                        <i class="fa-solid fa-cart-shopping clicks"><span class="spanCount">0</span></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <aside class="cart">
+            <div class="aside-content">
+                <div class="df">
+                    <h3>SHOPPING CART</h3>
+                    <div class="close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                </div>
+                <div class="bot">
+                    <i class="fa-solid fa-cart-plus"></i>
+                    <h4>Your Cart Is Empty</h4>
+                    <button>return to shop</button>
+                </div>
+                <div class="sec">
+                </div>
+                <button class="clearAll">
+                    Clear Cart
+                </button>
+            </div>
+        </aside>
+        <aside class="asideSearch">
+            <div class="df2">
+                <h3>SEARCH OUR SITE</h3>
+                <div class="close2">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <div class="twoInputs">
+                <select>
+                    <option>All Categories</option>
+                </select>
+                <div class="aside-input">
+                    <input type="text" onkeyup="searchingProducts(this.value)" placeholder="Search">
+                    <div class="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <aside class="aside1">
+            <div class="close4">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="twoButtons">
+                <button>menu</button>
+                <button>Categories</button>
+            </div>
+            <ul>
+                <li><a href="#demo">demo</a></li>
+                <li><a href="#">shop</a></li>
+                <li><a href="#product">product</a></li>
+                <li><a href="#">sale</a></li>
+                <li><a href="#">portfolio</a></li>
+                <li><a href="#lookbooks">lookbook</a></li>
+                <li><a href="#blog">blog</a></li>
+                <li><a href="#">buy theme</a></li>
+                <li><a href="#"><i class="fa-regular fa-heart"></i> wishlist</a></li>
+                <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i> search</a></li>
+                <li><a href="#"><i class="fa-regular fa-user"></i> login / register</a></li>
+                <li>
+                    <h5>need help</h5>
+                    <p class="phone2">+0123456789</p>
+                    <p class="email2">Kalles@domain.com</p>
+                </li>
+                <li><a href="#">usd</a></li>
+            </ul>
+        </aside>
+        <div class="upper">
+            <i class="fa-solid fa-angle-up"></i>
+        </div>
+    </header>
+    <main>
+        <section class="hero" id="demo">
+            <div class="hero-content">
+                <h2>Decor your home with <br> smart devices</h2>
+                <button>shop now</button>
+            </div>
+        </section>
+        <section class="intro" id="lookbooks">
+            <div class="container2">
+                <div class="intro-row">
+                    <div class="card">
+                        <img src="./imgs/watch_720x_01c52207-4ffc-49c0-9988-74f47f4a5bce.avif" alt="">
+                        <div class="titles">
+                            <h4>smart watch</h4>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./imgs/macb_720x_1f1ddb1d-22fb-42fb-9de9-2c25f89ddfc6.webp" alt="">
+                        <div class="titles">
+                            <h4>macbook</h4>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./imgs/banelic5_720x_04dcbe2c-af1e-43ad-8b0a-109859a99a73.webp" alt="">
+                        <div class="titles">
+                            <h4>headphones</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="products" id="product">
+            <div class="container3">
+                <div class="title">
+                    <h3>bestseller</h3>
+                    <p>Top seller in the week</p>
+                </div>
+                <div class="products-row">
+                </div>
+                <div class="align">
+                    <button class="load">
+                        load more
+                    </button>
+                </div>
+            </div>
+            <div class="overlay">
+                <div class="container3">
+                    <div class="over-row">
+                        <div class="close3">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        <div class="left-image">
+                            <img src="" alt="">
+                        </div>
+                        <div class="right-info">
+                            <h4></h4>
+                            <div class="rating">
+                                <div class="price2">
+                                    <span id="disc" class="disc"> 
+                                    </span>
+                                    <span id="price" class="RealPrice">
+                                    </span>
+                                </div>
+                                <div class="overView">
+                                    <div class="stars">
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    </div>
+                                    <h5>(1 Review)</h5>
+                                </div>
+                            </div>
+                            <p>
+                                Design inspiration lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo,
+                                ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis.
+                                Nullam sit amet enim. Suspendisse...
+                            </p>
+                            <div class="add">
+                                <div class="left">
+                                    <h6 class="minus">-</h6>
+                                    <h3>0</h3>
+                                    <h6 class="plus">+</h6>
+                                </div>
+                                <button class="addToCart">add to cart</button>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            <div class="inform">
+                                <h5>Availability: In Stock</h5>
+                                <h5>Categories: Electric</h5>
+                                <h5>Tags: Color Green Electric Price $7-$50 Vendor Ysamsung</h5>
+                            </div>
+                            <div class="social_icons">
+                                <div class="social">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </div>
+                                <div class="social">
+                                    <i class="fa-brands fa-x-twitter"></i>
+                                </div>
+                                <div class="social">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+                                <div class="social">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </div>
+                                <div class="social">
+                                    <i class="fa-brands fa-pinterest"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="lates" id="blog">
+            <div class="container3">
+                <div class="title">
+                    <h3>LATES FROM BLOG</h3>
+                    <p>The freshest and most exciting news</p>
+                </div>
+                <div class="lates-row">
+                    <div class="card4">
+                        <div class="image2">
+                            <img src="./imgs/elicbog19.webp" alt="">
+                        </div>
+                        <div class="card-body2">
+                            <h3>Microsoft’s Top Secret Surface Headphones Project Revealed</h3>
+                            <h4>By admin on May 6, 2022</h4>
+                            <p>Microsoft unveils the cool grey, minimalist voice-controlled Surface Headphones.</p>
+                        </div>
+                    </div>
+                    <div class="card4">
+                        <div class="image2">
+                            <img src="./imgs/elicbog20.webp" alt="">
+                        </div>
+                        <div class="card-body2">
+                            <h3>The Headphones Can Translate 11 Languages Wireless Speaker</h3>
+                            <h4>By admin on May 6, 2022</h4>
+                            <p>These 3-in-1 headphones can snap together and turn into a wireless speaker.</p>
+                        </div>
+                    </div>
+                    <div class="card4">
+                        <div class="image2">
+                            <img src="./imgs/elicbog21.webp" alt="">
+                        </div>
+                        <div class="card-body2">
+                            <h3>Dial and Disc Wireless Chargers home office from SumS</h3>
+                            <h4>By admin on May 6, 2022</h4>
+                            <p>Sleek, minimalist wireless charging designs to "complement and blend within the home and office".</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sub">
+            <div class="container4">
+                <div class="title2">
+                    <h3>SUBSCRIBE OUR NEWSLETTER</h3>
+                    <p>Sign up for our newsletter to be updated on the latest designs, exclusive offers, inspiration and tips!</p>
+                </div>
+                <form method="post">
+                    <div class="sub-input">
+                        <input type="email" placeholder="Yout email address">
+                        <button class="subscribe">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="services">
+            <div class="container3">
+                <div class="services-row">
+                    <div class="card5">
+                        <i class="fa-solid fa-plane-up"></i>
+                        <div class="right-thing">
+                            <h3>Free Shipping</h3>
+                            <p>Free shipping for all US order</p>
+                        </div>
+                    </div>
+                    <div class="card5">
+                        <i class="fa-regular fa-life-ring"></i>
+                        <div class="right-thing">
+                            <h3>Support 24/7</h3>
+                            <p>we support 24 hours a day</p>
+                        </div>
+                    </div>
+                    <div class="card5">
+                        <i class="fa-solid fa-rotate"></i>
+                        <div class="right-thing">
+                            <h3>30 days return</h3>
+                            <p>you have 30 days to return</p>
+                        </div>
+                    </div>
+                    <div class="card5">
+                        <i class="fa-regular fa-circle-user"></i>
+                        <div class="right-thing">
+                            <h3>Payment 100% Secure</h3>
+                            <p>Payment 100% Secure</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="foot">
+            <div class="container3">
+                <div class="foot-row">
+                    <div class="one">
+                        <a href="#">
+                            <img src="./imgs/kalles_c6c02253-b1fc-4536-91a6-a3c9110c5550.webp" alt="">
+                        </a>
+                        <p class="gps">
+                            184 Main Rd E, St Albans VIC 3021, Australia
+                        </p>
+                        <p class="email">
+                            contact@company.com
+                        </p>
+                        <p class="phone">
+                            +001 2233 456
+                        </p>
+                        <div class="social-icons">
+                            <div class="iconat">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+                            <div class="iconat">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </div>
+                            <div class="iconat">
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                            <div class="iconat">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </div>
+                            <div class="iconat">
+                                <i class="fa-brands fa-pinterest-p"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="two">
+                        <h3 class="head">
+                            Categories <i class="fa-solid fa-angle-down"></i>
+                        </h3>
+                        <div class="bottom">
+                            <ul>
+                                <li><a href="#">Men</a></li>
+                                <li><a href="#">Women</a></li>
+                                <li><a href="#">Accessories</a></li>
+                                <li><a href="#">Shoes</a></li>
+                                <li><a href="#">Denim</a></li>
+                                <li><a href="#">Dress</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="two">
+                        <h3 class="head">
+                            Infomation <i class="fa-solid fa-angle-down"></i>
+                        </h3>
+                        <div class="bottom">
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Contact us</a></li>
+                                <li><a href="#">Terms Conditions</a></li>
+                                <li><a href="#">Returns Exchanges</a></li>
+                                <li><a href="#">Shipping Delivery</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="two">
+                        <h3 class="head">
+                            Useful links <i class="fa-solid fa-angle-down"></i>
+                        </h3>
+                        <div class="bottom">
+                            <ul>
+                                <li><a href="#">Store Location</a></li>
+                                <li><a href="#">Latest News</a></li>
+                                <li><a href="#">My Account</a></li>
+                                <li><a href="#">Size Guide</a></li>
+                                <li><a href="#">FAQs 2</a></li>
+                                <li><a href="#">FAQs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="three">
+                        <h3 class="head2">
+                            Infomation
+                        </h3>
+                        <p>
+                            Subscribe to our newsletter and get 10% off your first purchase
+                        </p>
+                        <div class="three-input">
+                            <input type="email" placeholder="Your email address">
+                            <button class="sub2">
+                                subscribe
+                            </button>
+                        </div>
+                        <img src="./imgs/payment2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="end">
+            <div class="container3">
+                <div class="end-row">
+                    <h4>All Rights Reserved © 2024 <span>Kalles</span> store - Developed by <a href="#">The4</a></h4>
+                    <div class="right-Ul">
+                        <ul>
+                            <li><a href="#">Shop</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- JS -->
+    <script src="./js/main.js"></script>
+</body>
+</html>

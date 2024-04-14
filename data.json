@@ -1,0 +1,84 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Ysamsung Camera",
+            "price": "$25.00",
+            "disc": "$35.00",
+            "images": [
+                "https://demo-kalles-4-3.myshopify.com/cdn/shop/products/prelic1_0.jpg?v=1651954711&width=330",
+                "https://demo-kalles-4-3.myshopify.com/cdn/shop/products/prelic1_0.jpg?v=1651954711&width=330"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Beats Solo3 Wireless",
+            "price": "$35.00",
+            "disc": "",
+            "images": [
+                "https://demo-kalles-4-3.myshopify.com/cdn/shop/products/prelic2_0.jpg?v=1654152014&width=330",
+                "https://demo-kalles-4-3.myshopify.com/cdn/shop/products/prelic2_1.jpg?v=1654152014&width=360"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Lomo Sanremo Edition",
+            "price": "$65.00",
+            "disc": "",
+            "images": [
+                "https://demo-kalles-4-3.myshopify.com/cdn/shop/products/prelic3_0.jpg?v=1651954718&width=330",
+                "https://demo-kalles-4-3.myshopify.com/cdn/shop/products/prelic3_3.jpg?v=1651954718&width=360"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Ygoogle Speaker",
+            "price": "$65.00",
+            "disc": "",
+            "images": [
+                "https://demo-kalles-4-3.myshopify.com/cdn/shop/products/prelic4_0.jpg?v=1651954721&width=330",
+                "https://demo-kalles-4-3.myshopify.com/cdn/shop/products/prelic4_1.jpg?v=1651954721&width=360"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Ybeoplay H9i",
+            "price": "$55.00",
+            "disc": "",
+            "images": [
+                "https://demo-kalles-4-3.myshopify.com/cdn/shop/products/prelic5_0.jpg?v=1654152482&width=330",
+                "https://demo-kalles-4-3.myshopify.com/cdn/shop/products/prelic5_1.jpg?v=1654152603&width=360"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "YApple MacBook",
+            "price": "$55.00",
+            "disc": "",
+            "images": [
+                "https://demo-kalles-4-3.myshopify.com/cdn/shop/products/prelic6_2.jpg?v=1651954728&width=330",
+                "https://demo-kalles-4-3.myshopify.com/cdn/shop/products/prelic6_1.jpg?v=1651954728&width=360"
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Contemporary design classic",
+            "price": "$25.00",
+            "disc": "",
+            "images": [
+                "https://demo-kalles-4-3.myshopify.com/cdn/shop/products/prelic8_0.jpg?v=1651954736&width=330",
+                "https://demo-kalles-4-3.myshopify.com/cdn/shop/products/prelic8_1.jpg?v=1651954736&width=360"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Yapple Watch Nike Series 4",
+            "price": "$49.00",
+            "disc": "",
+            "images": [
+                "https://demo-kalles-4-3.myshopify.com/cdn/shop/products/prelic13_0.jpg?v=1651954766&width=330",
+                "https://demo-kalles-4-3.myshopify.com/cdn/shop/products/prelic13_1.jpg?v=1651954766&width=360"
+            ]
+        }
+    ]
+}
